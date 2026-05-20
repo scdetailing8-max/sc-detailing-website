@@ -102,13 +102,14 @@ export default function SCDetailingWebsite() {
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
              <a href="https://sc-detailing8.square.site/" target="_blank">
-  <Button>
+ <a href="https://sc-detailing8.square.site/" target="_blank">
+  <Button className="bg-red-600 hover:bg-red-700 text-white">
     Book Your Detail
   </Button>
 </a>
 
 <a href="sms:8594468778?body=Hi%20SC%20Detailing,%20I%20want%20a%20quote">
-  <Button>
+  <Button className="border border-red-600 text-red-600 hover:bg-red-600 hover:text-white">
     Get a Quote
   </Button>
 </a>
