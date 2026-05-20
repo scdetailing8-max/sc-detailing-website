@@ -101,12 +101,17 @@ export default function SCDetailingWebsite() {
               SC Detailing provides professional mobile interior and exterior detailing for cars, trucks, SUVs, work vehicles, and daily drivers.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
-              <Button className="rounded-xl bg-red-700 hover:bg-red-800 text-white px-7 py-6 text-base">
-                Book Your Detail
-              </Button>
-              <Button variant="outline" className="rounded-xl border-white/25 bg-white/5 text-white hover:bg-white hover:text-neutral-950 px-7 py-6 text-base">
-                Get a Quote
-              </Button>
+             <a href="https://sc-detailing8.square.site/" target="_blank">
+  <Button>
+    Book Your Detail
+  </Button>
+</a>
+
+<a href="sms:8594468778?body=Hi%20SC%20Detailing,%20I%20want%20a%20quote">
+  <Button>
+    Get a Quote
+  </Button>
+</a>
             </div>
             <div className="mt-8 grid grid-cols-3 gap-4 max-w-lg">
               <div className="rounded-2xl bg-white/5 border border-white/10 p-4">
